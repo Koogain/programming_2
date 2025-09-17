@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int test_swapDouble();
+int test_swapDouble();			// swap prototype
 void* swapDouble(double* pa, double* pb);
 
-int test_print_array();
+int test_print_array();			// print_array prototype
 void print_double_array(double arr[], int size);
 void printDoubleArray(double* arr, int size);
 
