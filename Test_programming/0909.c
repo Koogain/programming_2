@@ -10,7 +10,7 @@ int main(void)
 }
 
 #ifdef DEBUG
-int test_copy_array(void)	// x,y  ¼±¾ð
+int test_copy_array(void)	// x,y  ï¿½ï¿½ï¿½ï¿½
 {
 #define LEN 5
 
@@ -33,7 +33,7 @@ int test_copy_array(void)	// x,y  ¼±¾ð
 }
 #endif
 
-void copy_array(int from[], int to[], int size)		// x -> y·Î º¹»ç
+void copy_array(int from[], int to[], int size)		// x -> yï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 {
 	int i = 0;
 

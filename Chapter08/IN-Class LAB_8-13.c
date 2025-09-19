@@ -24,7 +24,7 @@ int test_swapDouble()
 	double* presult = (double*)swapDouble(&a, &b);
 	if (presult == NULL)
 	{
-		printf("¹º°¡ Àß¸øµÇ¾ú¾î!!\n");
+		printf("ï¿½ï¿½ï¿½ï¿½ ï¿½ß¸ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½!!\n");
 	}
 	else
 	{
@@ -34,7 +34,7 @@ int test_swapDouble()
 	double* presult1 = (double*)swapDouble((double*)NULL, &b);
 	if (presult1 == NULL)
 	{
-		printf("¹º°¡ Àß¸øµÇ¾ú¾î!!\n");
+		printf("ï¿½ï¿½ï¿½ï¿½ ï¿½ß¸ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½!!\n");
 	}
 	else
 	{
@@ -44,7 +44,7 @@ int test_swapDouble()
 
 void * swapDouble(double* pa, double* pb)
 {
-	// 1. ÀÔ·Â °ª Á¤»óÀÎÁö Ã¼Å© : NULLÀÌ ¾Æ´Ï¾î¾ß ÇÔ!!
+	// 1. ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã¼Å© : NULLï¿½ï¿½ ï¿½Æ´Ï¾ï¿½ï¿½ ï¿½ï¿½!!
 	if (pa == NULL || pb == NULL)
 	{
 		return NULL;
@@ -72,11 +72,11 @@ int test_print_array()
 	return 0;
 }
 
-// ±â´É : 1Â÷¿ø ½Ç¼ö ¹è¿­À» ÀÔ·Â ¹Þ¾Æ ÄÜ¼Ö¿¡ Ãâ·ÂÇÑ´Ù
-// ÇÔ¼ö¸í : print_double_array
-// ÀÔ·Â : double Å¸ÀÔ 1Â÷¿ø ¹è¿­ ÁÖ¼Ò
-// Ãâ·Â : ÅÍ¹Ì³Î¿¡ ¹è¿­ÀÇ ³»¿ëÀ» ¿¹»Ú°Ô	Ãâ·Â
-// ¹ÝÈ¯ : ¾øÀ½
+// ï¿½ï¿½ï¿½ : 1ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¼ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½Þ¾ï¿½ ï¿½Ü¼Ö¿ï¿½ ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½
+// ï¿½Ô¼ï¿½ï¿½ï¿½ : print_double_array
+// ï¿½Ô·ï¿½ : double Å¸ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ ï¿½Ö¼ï¿½
+// ï¿½ï¿½ï¿½ : ï¿½Í¹Ì³Î¿ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú°ï¿½	ï¿½ï¿½ï¿½
+// ï¿½ï¿½È¯ : ï¿½ï¿½ï¿½ï¿½
 
 void print_double_array(double arr[], int size)
 {

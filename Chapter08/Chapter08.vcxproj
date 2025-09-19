@@ -123,9 +123,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="assignment02.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="assignment04.c" />
+    <ClCompile Include="assignment06.c" />
+    <ClCompile Include="assignment10.c" />
+    <ClCompile Include="assignment13.c" />
+    <ClCompile Include="assignment14.c" />
+    <ClCompile Include="assignment15.c" />
+    <ClCompile Include="assignment18.c" />
+    <ClCompile Include="IN-Class LAB.c" />
     <ClCompile Include="IN-Class LAB_8-13.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="IN-Class LAB_8-14.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
