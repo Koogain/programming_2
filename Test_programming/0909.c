@@ -10,7 +10,7 @@ int main(void)
 }
 
 #ifdef DEBUG
-int test_copy_array(void)	// x,y  ����
+int test_copy_array(void)	// x,y  선언 및 
 {
 #define LEN 5
 
@@ -33,7 +33,7 @@ int test_copy_array(void)	// x,y  ����
 }
 #endif
 
-void copy_array(int from[], int to[], int size)		// x -> y�� ����
+void copy_array(int from[], int to[], int size)		// x -> y 옮기기
 {
 	int i = 0;
 
